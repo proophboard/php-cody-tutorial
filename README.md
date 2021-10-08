@@ -10,4 +10,4 @@ cd php-cody-tutorial
 ./setup.sh
 ```
 
-Open the [free version of prooph board](https://free.prooph-board.com/i) and head over for your [first exercise from the Wiki](https://wiki.prooph-board.com/PHP-Cody-Tutorial-Exercise-I).
+Open the [free version of prooph board](https://free.prooph-board.com/) and head over for your [first exercise from the Wiki](https://wiki.prooph-board.com/PHP-Cody-Tutorial-Exercise-I).
