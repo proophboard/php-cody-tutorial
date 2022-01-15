@@ -1,4 +1,4 @@
-# Cody Typescript Tutorial
+# Cody PHP Tutorial
 
 Please clone this repository and execute the `setup.sh` script to speed up your [Cody PHP Tutotial setup](https://wiki.prooph-board.com/PHP-Cody-Tutorial).
 
