@@ -15,7 +15,7 @@ cp app.env.dist app.env
 
 
 sed -i '/app$/a\      - ../exercises:/exercises' docker-compose.yml
-sed -i "14 i \$context->path = '/exercises/src';" codyconfig.php
+sed -i "/^return new CodyConfig/i \$context->path = '/exercises/src';\n" codyconfig.php
 
 docker run --rm -it \
     -v $(pwd):/app \
@@ -24,4 +24,4 @@ docker run --rm -it \
 ./dev.sh
 
 echo ""
-echo "Cody tutorial ready. Visit https://wiki.prooph-board.com/PHP-Cody-Tutorial-Exercise-I"
+echo "Cody tutorial ready. Visit https://wiki.prooph-board.com/cody/php-cody-tutorial.html"
